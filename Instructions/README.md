@@ -1,10 +1,12 @@
-# Unit 12— A Tales of Two Cryptos
+# Unit 12—Tales from the Crypto
 
 ![Stock Sentiment](Images/sentimental.jpeg)
 
 ## Background
 
+There's been a lot of hype in the news lately about cryptocurrency, so you want to take stock, so to speak, of the latest news headlines regarding Bitcoin and Ethereum to get a better feel for the current public sentiment around each coin.
 
+In this assignment, you will apply natural language processing to understand the sentiment in the latest news articles featuring Bitcoin and Ethereum. You will also apply fundamental NLP techniques to better understand the other factors involved with the coin prices such as common words and phrases and organizations and entities mentioned in the articles.
 
 Complete the following tasks:
 
@@ -12,7 +14,13 @@ Complete the following tasks:
 2. [Natural Language Processing](#Natural-Language-Processing)
 3. [Named Entity Recognition](#Named-Entity-Recognition)
 
+- - -
 
+### Files
+
+[Starter Notebook](Starter_Code/crypto_sentiment.ipynb)
+
+- - -
 
 ### Instructions
 
@@ -23,19 +31,10 @@ Use the [newsapi](https://newsapi.org/) to pull the latest news articles for Bit
 Use descriptive statistics to answer the following questions:
 
 > Which coin had the highest mean positive score?
->   * Bitcoin has the higher mean positive score compared to ethereum, 0.074 vs. 0.065.
 >
 > Which coin had the highest negative score?
->    * Based on the descriptive statistics, Ethereum has the highest compound score.
->        * It topped at 0.90 vs. the maximum compound score of 0.79 from Ethereum. 
->    * On the other hand, Bitcoin has compound scores higher than Ethereum on 
->        * its average, minimum, 25th, 50th and 75th percentiles.
 >
 > Which coin had the highest positive score?
->    * Ethereum has the highest positive score with its maximum at 0.21 rather than the 0.14 received by Bitcoin.
->   
-> _*Sentiments towards Ethereum are more volatile as the standard deviations are higher than those for Bitcoin*_
-> _*on scores for compound, negative, neutral and positive texts.*_
 
 #### Natural Language Processing
 
@@ -74,20 +73,18 @@ In this section, you will build a named entity recognition model for both coins 
 
 - - -
 
+### Hints and Considerations
+
+The free developer version of the News API limits the total monthly requests, so be careful not to exceed the free limits.
 
 - - -
 
-### Files
+### Submission
 
-[Crypto Notebook](Answers/Code/crypto_sentiment.ipynb)
+* Create Jupyter Notebooks for the NLP analysis and host the notebooks on GitHub.
 
-- - -
+* Include a Markdown that summarizes your homework and include this report in your GitHub repo.
 
-# References:
-* CU Fintech Bootcamp GitLab Repository
-* https://www.geeksforgeeks.org/python-lemmatization-with-nltk/
-* https://riptutorial.com/nltk/example/27393/porter-stemmer
-* https://newsapi.org/
-* https://stackoverflow.com/questions/51102205/how-to-know-the-labels-assigned-by-astypecategory-cat-codes
-* https://pandas.pydata.org/pandas-docs/stable/user_guide/categorical.html
-* https://matplotlib.org/3.1.1/gallery/lines_bars_and_markers/bar_stacked.html#sphx-glr-gallery-lines-bars-and-markers-bar-stacked-py
+* Submit the link to your GitHub project to Bootcamp Spot.
+
+© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
