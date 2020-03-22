@@ -1,12 +1,10 @@
-# Unit 12— A Tales of Two Cryptos
-
-![Stock Sentiment](Images/sentimental.jpeg)
-
-## Background
+# Unit 12 — NLP Homework: A Tales of Two Cryptos
 
 
+## Overview
 
-Complete the following tasks:
+In this homework, we are comparing Bitcoin and Ethereum based on articles fetched from [News API](https://newsapi.org/). 
+Conclusions are based on the following analysis:
 
 1. [Sentiment Analysis](#Sentiment-Analysis)
 2. [Natural Language Processing](#Natural-Language-Processing)
@@ -14,7 +12,7 @@ Complete the following tasks:
 
 
 
-### Instructions
+### Emotions on Crypto 
 
 #### Sentiment Analysis
 
