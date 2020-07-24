@@ -1,5 +1,6 @@
-# Unit 12 — NLP Homework: A Tale of Two Cryptos
+# A Tale of Two Cryptos
 
+### _Unit 12 — NLP_
 
 ## Are Bitcoin and Ethereum real money?
 
