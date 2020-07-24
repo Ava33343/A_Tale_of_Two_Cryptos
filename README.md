@@ -1,6 +1,6 @@
 # A Tale of Two Cryptos
 
-### _Unit 12 — NLP_
+### _Sentiment Analysis through Natual Language Processing_
 
 ## Are Bitcoin and Ethereum real money?
 
